@@ -3,3 +3,7 @@
 /Logs/
 /Temp/
 /UserSettings/
+
+# Ignore untracked files in the project root, but keep directories visible
+/*
+!/*/
