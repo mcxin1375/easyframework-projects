@@ -1,9 +1,9 @@
+# Ignore untracked files in the project root, but keep directories visible
+/*
+!/*/
+
 # Unity generated folders
 /Library/
 /Logs/
 /Temp/
 /UserSettings/
-
-# Ignore untracked files in the project root, but keep directories visible
-/*
-!/*/
