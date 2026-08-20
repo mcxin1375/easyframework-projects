@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95cca6b9803bd1744a37f45b76097313, type: 3}
+  m_Name: EasyFrameworkAOTSettings
+  m_EditorClassIdentifier: 
+  autoInitialize: 1
+  debugLevel: -1
+  maxRetryCount: 3
+  retryDelayMs: 1000
+  downloadParallel: 3
+  unzipParallel: 3
+  uiRoot: {fileID: 0}
+  resolution: {x: 1920, y: 1080}
+  uiRenderMode: 0
+  enterType: HotUpdate
+  enterMethod: Enter
+  streamingAssetsResZipInfo:
+    mainResUid: 
+    mainResZipArray: []
