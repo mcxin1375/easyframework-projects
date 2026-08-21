@@ -377,6 +377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3476c024b61e8e41bf0f1a103583cbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  assemblyName: Game.Logic
 --- !u!4 &1025716586
 Transform:
   m_ObjectHideFlags: 0

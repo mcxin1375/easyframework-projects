@@ -1,0 +1,11 @@
+{
+  "name": "com.cookie.easyframeworkex",
+  "displayName": "Easy Framework Ex",
+  "version": "0.0.1",
+  "description": "Easy Framework Ex",
+  "author": {
+    "name": "Cookie"
+  },
+  "dependencies": {
+  }
+}
