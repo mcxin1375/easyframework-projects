@@ -3,7 +3,10 @@
 !/*/
 
 # Unity generated folders
+/.idea/
+/EasyFramework/
 /Library/
 /Logs/
+/obj/
 /Temp/
 /UserSettings/
