@@ -8,8 +8,8 @@ using UnityEngine;
 
 namespace EasyFramework.Editor
 {
-    [ProjectSettings("ProjectSettings/EasyFramework")]
-    public class SVNExtensionSettings : ProjectSettingsEditor<SVNExtensionSettings>
+    [ProjectSettings(ProjectSettingsAttribute.ETag.Editor)]
+    public class SVNExtensionSettings : ProjectSettings<SVNExtensionSettings>
     {
         [Header("Active Mode")]
         public bool editorEnabled;

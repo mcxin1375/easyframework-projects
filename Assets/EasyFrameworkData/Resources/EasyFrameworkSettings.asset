@@ -12,4 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6e596e86aab36a47bc36c15ff16a4e0, type: 3}
   m_Name: EasyFrameworkSettings
   m_EditorClassIdentifier: 
+  autoInitialize: 1
+  appSettings: {fileID: 11400000, guid: ff45d36e13043384aa6c94169211ef9c, type: 2}
+  dlcVersionIndex: 1
+  abSuffix: .ab
+  resLoaderEditorMode: 1
+  resLoaderMode: 0
   resRequestAliveTime: 60
+  maxRetryCount: 3
+  retryDelayMs: 1000
+  downloadParallel: 3
+  unzipParallel: 3
+  uiRoot: {fileID: 0}
+  resolution: {x: 1920, y: 1080}
+  uiRenderMode: 0
+  enterType: HotUpdate
+  enterMethod: Enter
+  streamingAssetsResZipInfo:
+    mainResUid: 
+    mainResZipArray: []
+  debugLevel: -1

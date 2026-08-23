@@ -9,7 +9,7 @@ using UnityEngine;
 
 namespace EasyFramework.Editor
 {
-    public class SVNExtension : IToolEvent<ToolImporter>, IToolEvent<ToolCreator>
+    public class SVNExtension : IToolEvent<AssetImporter>, IToolEvent<AssetCreator>
     {
         public int Order => int.MaxValue;
         

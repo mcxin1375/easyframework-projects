@@ -11,7 +11,7 @@ namespace EasyFramework.Editor
 {
 
     [CreateAssetMenu(menuName = "EasyFramework/AssetImporter/ExcelImporterSettings", fileName = "ExcelImporterSettings.asset")]
-    public class ExcelImporterSettings : ToolScriptableObject<ToolImporter>
+    public class ExcelImporterSettings : ToolScriptableObject<AssetImporter>
     {
         [Header("Settings")]
         public string namespaceName = "Game";

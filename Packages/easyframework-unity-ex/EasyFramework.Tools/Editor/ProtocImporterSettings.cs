@@ -12,7 +12,7 @@ using UnityEngine;
 namespace EasyFramework.Editor
 {
     [CreateAssetMenu(menuName = "EasyFramework/AssetImporter/ProtocImporterSettings", fileName = "ProtocImporterSettings.asset")]
-    public class ProtocImporterSettings : ToolScriptableObject<ToolImporter>
+    public class ProtocImporterSettings : ToolScriptableObject<AssetImporter>
     {
         private const string ProtocExeGuid = "4772bbc776eedce4bba1d4ab1b72bfbb";
         
