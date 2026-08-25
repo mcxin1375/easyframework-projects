@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b18206a89d27de488845c7eeb57f664, type: 3}
   m_Name: PlayerBuilderSettings
   m_EditorClassIdentifier: 
+  preSettingsEnabled: 1
   companyName: EasyFun
   productName: EasyFramework
   enabled: 0
