@@ -18,6 +18,7 @@ namespace EasyFramework.Editor
         Canceled =4
     }
 
+    [ConfigSettings(EConfigType.Newtonsoft)]
     public struct TaskConfig
     {
         public string AppName;
@@ -94,7 +95,7 @@ namespace EasyFramework.Editor
 
         public static TaskConfig LoadFromFile(string path)
         {
-            return NewtonsoftHelper.LoadOrCreate<TaskConfig>(path);
+            return ConfigHelper.LoadOrCreate<TaskConfig>(path);
         }
     }
 }

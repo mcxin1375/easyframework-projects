@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: AppSettings
   m_EditorClassIdentifier: 
   appName: EasyFramework
+  bundleIdentifier: cn.cookie.easyframework
   ver1: 0
   ver2: 0
   ver3: 1
+  bundleVer: 0
   dlcURL: 
   appVersionURL: 

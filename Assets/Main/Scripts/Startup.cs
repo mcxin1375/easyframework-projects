@@ -6,7 +6,6 @@ using UnityEngine;
 
 namespace Main
 {
-    
     public class Startup : MonoBehaviour
     {
         public string assemblyName = "Game.Logic";
@@ -19,7 +18,7 @@ namespace Main
             
             // 模拟进入热更新
             var assembly = AppDomain.CurrentDomain.GetAssemblies().FirstOrDefault(a => a.GetName().Name == assemblyName);
-            HybridCLRHelper.Enter(assembly);
+            HotUpdateHelper.Enter(assembly);
         }
     }
 }

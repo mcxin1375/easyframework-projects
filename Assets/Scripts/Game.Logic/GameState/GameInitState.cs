@@ -8,13 +8,21 @@ namespace Game.Logic
         protected override void OnEnter()
         {
             FDebug.Log($"GameInitState - OnEnter");
-            
-            GLogic.FSM.Enter<GameLoginState>();
+
+            _ = InitializeAsync();
         }
 
         protected override void OnExit()
         {
             FDebug.Log($"GameInitState - OnExit");
         }
+
+        private async ETask InitializeAsync()
+        {
+            await F.ResLoader.PreInitializeAsync();
+            
+            GLogic.FSM.Enter<GameLoginState>();
+        }
+
     }
 }

@@ -10,7 +10,7 @@ namespace EasyFramework.Editor
 {
     public static class EasyFrameworkToolsExMenuItem
     {
-        private const int Priority = 3000;
+        private const int Priority = MenuItemOrder.ToolsEx;
         
         [MenuItem("EasyFramework/Tools Ex/SVNExtension - Update", priority = Priority + 100)]
         private static void SVNExtension_Update() => SVNExtension.Update();
