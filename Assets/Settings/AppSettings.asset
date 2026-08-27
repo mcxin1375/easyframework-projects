@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 298b6eff461ede544b29b1794b3d4e91, type: 3}
   m_Name: AppSettings
   m_EditorClassIdentifier: 
-  appName: EasyFramework
+  appName: MainApp
   bundleIdentifier: cn.cookie.easyframework
   ver1: 0
   ver2: 0
   ver3: 1
   bundleVer: 0
-  dlcURL: 
-  appVersionURL: 
+  dlcURL: http://172.28.252.199/EasyFramework/DLCBuilder
+  appVersionURL: http://172.28.252.199/EasyFramework/DLCBuilder/Android/LatestVersion.json

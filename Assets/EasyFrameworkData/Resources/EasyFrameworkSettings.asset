@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoInitialize: 1
   appSettings: {fileID: 11400000, guid: ff45d36e13043384aa6c94169211ef9c, type: 2}
-  dlcVersionIndex: 1
   abSuffix: .ab
-  resLoaderEditorMode: 1
-  resLoaderMode: 0
+  resLoaderEditorMode: 0
+  resLoaderMode: 1
   resRequestAliveTime: 60
-  maxRetryCount: 3
-  retryDelayMs: 1000
+  dlcVersionIndex: 1
   downloadParallel: 3
   unzipParallel: 3
+  maxRetryCount: 3
+  retryDelayMs: 1000
   uiRoot: {fileID: 0}
   resolution: {x: 1920, y: 1080}
   uiRenderMode: 0

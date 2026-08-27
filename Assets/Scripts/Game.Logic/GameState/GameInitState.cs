@@ -19,9 +19,10 @@ namespace Game.Logic
 
         private async ETask InitializeAsync()
         {
-            await F.ResLoader.PreInitializeAsync();
+            await F.DLCManager.UpdateAsync();
+            // await F.ResLoader.PreInitializeAsync();
             
-            GLogic.FSM.Enter<GameLoginState>();
+            // GLogic.FSM.Enter<GameLoginState>();
         }
 
     }

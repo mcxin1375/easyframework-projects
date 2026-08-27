@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3980c72396071e248b04579a2a2ad9b8, type: 3}
   m_Name: DLCBuilderSettings
   m_EditorClassIdentifier: 
-  versionCustomId: 
   maxCacheNum: 10
+  buildNameType: 1
   buildOptions: 1
