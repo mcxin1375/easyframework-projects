@@ -15,7 +15,7 @@ MonoBehaviour:
   preSettingsEnabled: 1
   companyName: EasyFun
   productName: EasyFramework
-  enabled: 0
+  enabled: 1
   exportAsGoogleAndroidProject: 0
   developmentBuild: 0
   cleanupTempDir: 1

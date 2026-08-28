@@ -8,7 +8,7 @@ namespace EasyFramework.Editor
 {
     public class AssetBundleBuildFileTreeDebug
     {
-        public string BuildPath => AssetBundleBuilder.Instance.ProjectDataPath;
+        public string BuildPath => AssetBundleBuilder.Instance.ProjectPlatformPath;
         public string RootDirectory { get; }
         public long TotalSize { get; private set; }
 

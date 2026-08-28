@@ -12,6 +12,8 @@ namespace Main
         
         IEnumerator Start()
         {
+            Application.runInBackground = true;
+            
             F.WindowManager.Open<MainLogoWindow>();
             
             yield return new WaitForSeconds(2);
