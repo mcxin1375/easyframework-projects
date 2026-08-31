@@ -17,6 +17,6 @@ MonoBehaviour:
   ver1: 0
   ver2: 0
   ver3: 1
-  bundleVer: 0
+  buildIndex: 0
   dlcURL: http://172.28.252.199/EasyFramework/DLCBuilder
-  appVersionURL: http://172.28.252.199/EasyFramework/DLCBuilder/Android/LatestVersion.json
+  appVersionURL: http://172.28.252.199/EasyFramework/DLCBuilder/{Platform}/LatestVersion.json
