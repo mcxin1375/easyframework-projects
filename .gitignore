@@ -3,8 +3,8 @@
 !/*/
 
 # Unity generated folders
-/.idea/
-/.vs/
+.idea/
+.vs/
 /EasyFramework/
 /HybridCLRData/
 /openspec/
