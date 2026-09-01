@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = EasyFramework.UnityRoslyn2022
+build_property.ProjectDir = D:\WorkGIT\easyframework-unityproject\EasyFramework.NET\EasyFramework.UnityRoslyn2022\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 
