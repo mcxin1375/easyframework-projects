@@ -12,10 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b18206a89d27de488845c7eeb57f664, type: 3}
   m_Name: PlayerBuilderSettings
   m_EditorClassIdentifier: 
-  companyName: EasyFun
-  productName: EasyFramework
   preSettingsEnabled: 1
-  streamingAssetsOptions: 0
   releaseVersion: 
   enabled: 1
   exportAsGoogleAndroidProject: 0

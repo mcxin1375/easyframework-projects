@@ -9,7 +9,7 @@ namespace Game.Logic
         {
             FDebug.Log($"LoginController - OnEnter");
             
-
+            F.ResLoader.CreateObj("Cube");
         }
 
         protected override async ETask OnEnterAsync()
@@ -18,8 +18,6 @@ namespace Game.Logic
             
             await F.WindowManager.OpenAsync<LoginWindow>();
             F.WindowManager.Close<MainLogoWindow>();
-
-            await F.ResLoader.CreateObjAsync("Cube");
         }
 
         protected override void OnExit()

@@ -15,7 +15,7 @@ MonoBehaviour:
   autoInitialize: 1
   appSettings: {fileID: 11400000, guid: ff45d36e13043384aa6c94169211ef9c, type: 2}
   abSuffix: .ab
-  resLoaderEditorMode: 0
+  resLoaderEditorMode: 1
   resLoaderMode: 0
   resRequestAliveTime: 60
   dlcVersionIndex: 1
@@ -28,7 +28,4 @@ MonoBehaviour:
   uiRenderMode: 0
   enterType: HotUpdate
   enterMethod: Enter
-  streamingAssetsResZipInfo:
-    mainResUid: 
-    mainResZipArray: []
   debugLevel: -1
