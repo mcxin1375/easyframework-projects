@@ -1,10 +1,10 @@
 # Ignore untracked files in the project root, but keep directories visible
 /*
-!/*/
 
 # Unity generated folders
 .idea/
 .vs/
+!/EasyFramework.Unity2022/*/
 /EasyFramework.Unity2022/EasyFramework/
 /EasyFramework.Unity2022/HybridCLRData/
 /EasyFramework.Unity2022/Library/
