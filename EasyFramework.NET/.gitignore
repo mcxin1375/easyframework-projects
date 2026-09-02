@@ -1,0 +1,8 @@
+# Ignore untracked files in the project root, but keep directories visible
+
+
+# Unity generated folders
+.idea/
+.vs/
+/*/obj/
+/*/bin/

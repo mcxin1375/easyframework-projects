@@ -1,0 +1,1 @@
+internal static class OutputWriter { public static void ClearDirectory(string path) { Directory.CreateDirectory(path); foreach (var file in Directory.EnumerateFiles(path)) File.Delete(file); foreach (var dir in Directory.EnumerateDirectories(path)) Directory.Delete(dir, true); } }
