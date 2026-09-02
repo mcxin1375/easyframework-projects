@@ -1,0 +1,16 @@
+# Ignore untracked files in the project root, but keep directories visible
+/*
+!/*/
+!/.gitignore
+
+# Unity generated folders
+.idea/
+.vs/
+/EasyFramework/
+/HybridCLRData/
+/Library/
+/Logs/
+/obj/
+/Temp/
+/UserSettings/
+/openspec/
