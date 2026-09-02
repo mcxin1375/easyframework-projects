@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WorkGIT\\easyframework-unityproject\\EasyFramework.NET\\EasyFramework.UnityRoslyn2022\\EasyFramework.UnityRoslyn2022.csproj": {}
+    "D:\\WorkCookie\\easyframework-projects\\EasyFramework.NET\\EasyFramework.UnityRoslyn2022\\EasyFramework.UnityRoslyn2022.csproj": {}
   },
   "projects": {
-    "D:\\WorkGIT\\easyframework-unityproject\\EasyFramework.NET\\EasyFramework.UnityRoslyn2022\\EasyFramework.UnityRoslyn2022.csproj": {
+    "D:\\WorkCookie\\easyframework-projects\\EasyFramework.NET\\EasyFramework.UnityRoslyn2022\\EasyFramework.UnityRoslyn2022.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WorkGIT\\easyframework-unityproject\\EasyFramework.NET\\EasyFramework.UnityRoslyn2022\\EasyFramework.UnityRoslyn2022.csproj",
+        "projectUniqueName": "D:\\WorkCookie\\easyframework-projects\\EasyFramework.NET\\EasyFramework.UnityRoslyn2022\\EasyFramework.UnityRoslyn2022.csproj",
         "projectName": "EasyFramework.UnityRoslyn2022",
-        "projectPath": "D:\\WorkGIT\\easyframework-unityproject\\EasyFramework.NET\\EasyFramework.UnityRoslyn2022\\EasyFramework.UnityRoslyn2022.csproj",
-        "packagesPath": "C:\\Users\\mcxin\\.nuget\\packages\\",
-        "outputPath": "D:\\WorkGIT\\easyframework-unityproject\\EasyFramework.NET\\EasyFramework.UnityRoslyn2022\\obj\\",
+        "projectPath": "D:\\WorkCookie\\easyframework-projects\\EasyFramework.NET\\EasyFramework.UnityRoslyn2022\\EasyFramework.UnityRoslyn2022.csproj",
+        "packagesPath": "C:\\Users\\Mcxin\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkCookie\\easyframework-projects\\EasyFramework.NET\\EasyFramework.UnityRoslyn2022\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mcxin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mcxin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
