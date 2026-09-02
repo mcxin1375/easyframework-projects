@@ -1,3 +1,3 @@
-[submodule "Packages/easyframework-unity"]
+[submodule "EasyFramework.Unity2022/Packages/easyframework-unity"]
 	path = EasyFramework.Unity2022/Packages/easyframework-unity
 	url = https://github.com/mcxin1375/easyframework-unity.git

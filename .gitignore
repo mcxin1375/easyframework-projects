@@ -5,11 +5,11 @@
 # Unity generated folders
 .idea/
 .vs/
-/EasyFramework/
-/HybridCLRData/
+/EasyFramework.Unity2022/EasyFramework/
+/EasyFramework.Unity2022/HybridCLRData/
+/EasyFramework.Unity2022/Library/
+/EasyFramework.Unity2022/Logs/
+/EasyFramework.Unity2022/obj/
+/EasyFramework.Unity2022/Temp/
+/EasyFramework.Unity2022/UserSettings/
 /openspec/
-/Library/
-/Logs/
-/obj/
-/Temp/
-/UserSettings/
