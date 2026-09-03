@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: DLCBuilderSettings
   m_EditorClassIdentifier: 
   maxCacheNum: 10
-  buildNameType: 1
-  buildOptions: 1
+  buildName: 1
+  buildMode: 1

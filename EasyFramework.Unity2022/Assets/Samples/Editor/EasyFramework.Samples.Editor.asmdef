@@ -1,0 +1,16 @@
+{
+    "name": "EasyFramework.Samples.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f739d2667768ec241b089fc181e6bb76"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
