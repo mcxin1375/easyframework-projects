@@ -1,7 +1,7 @@
 
 namespace EasyFramework.Samples
 {
-    public class EFAwakeWindow : WindowResources
+    public class AwakeWindow : WindowResources
     {
         protected override void OnOpen()
         {

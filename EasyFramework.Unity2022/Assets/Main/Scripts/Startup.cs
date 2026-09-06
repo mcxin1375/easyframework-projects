@@ -1,6 +1,4 @@
-using System;
 using System.Collections;
-using System.Linq;
 using UnityEngine;
 
 namespace EasyFramework.Samples
@@ -13,13 +11,11 @@ namespace EasyFramework.Samples
         {
             Application.runInBackground = true;
             
-            F.WindowManager.Open<EFAwakeWindow>();
+            F.WindowManager.Open<AwakeWindow>();
             
             yield return new WaitForSeconds(2);
-            
-            // 模拟进入热更新
-            var assembly = AppDomain.CurrentDomain.GetAssemblies().FirstOrDefault(a => a.GetName().Name == assemblyName);
-            HotUpdateHelper.Enter(assembly);
+
+            F.ControllerManager.EnterAsync<MainController>();
         }
     }
 }

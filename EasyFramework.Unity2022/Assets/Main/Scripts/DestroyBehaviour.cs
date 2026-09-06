@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace EasyFramework.Samples
+namespace Main
 {
     public class DestroyBehaviour : MonoBehaviour
     {

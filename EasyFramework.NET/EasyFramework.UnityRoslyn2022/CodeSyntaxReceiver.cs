@@ -7,9 +7,14 @@ namespace EasyFramework.UnityRoslyn
     public class CodeSyntaxReceiver : ISyntaxReceiver
     {
         public List<ClassDeclarationSyntax> CandidateClasses = new List<ClassDeclarationSyntax>();
+        public List<TypeDeclarationSyntax> CandidateTypes = new List<TypeDeclarationSyntax>();
 
         public void OnVisitSyntaxNode(SyntaxNode syntaxNode)
         {
+            var typeDecl = syntaxNode as TypeDeclarationSyntax;
+            if (typeDecl != null)
+                CandidateTypes.Add(typeDecl);
+
             var classDecl = syntaxNode as ClassDeclarationSyntax;
 
             if (classDecl == null)

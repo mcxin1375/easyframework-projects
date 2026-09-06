@@ -16,6 +16,8 @@ namespace EasyFramework.UnityRoslyn
                                                                        new TParamsHandler(),
                                                                    };
 
+        private static readonly ReflectionAttributeHandler ReflectionAttributeHandler = new ReflectionAttributeHandler();
+
         public void Initialize(GeneratorInitializationContext context)
         {
             context.RegisterForSyntaxNotifications(() => new CodeSyntaxReceiver());
@@ -26,6 +28,8 @@ namespace EasyFramework.UnityRoslyn
             var receiver = context.SyntaxReceiver as CodeSyntaxReceiver;
             if (receiver == null)
                 return;
+
+            ReflectionAttributeHandler.Execute(context, receiver);
 
             foreach (var classDecl in receiver.CandidateClasses)
             {
