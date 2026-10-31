@@ -22,22 +22,7 @@ namespace EasyFramework.Editor
         
         protected override void OnExecute()
         {
-            ExcelCommandSettings excelCommandSettings = new()
-            {
-                namespaceName = namespaceName,
-                dataPath = dataPath,
-                svnVersionPath = $"{Application.dataPath}/../{svnVersionPath}",
-                outputScriptPath = outputScriptPath,
-                outputDataFilePath = outputDataFilePath,
-            };
             
-            ExcelCommand.Execute(excelCommandSettings, (s, p, len) =>
-            {
-                Debug.Log($"({p}/{len}) {s}");
-                EditorUtility.DisplayProgressBar("ExcelImporter", s, p / (float)len);
-            });
-
-            EditorUtility.ClearProgressBar();
         }
     }
 }

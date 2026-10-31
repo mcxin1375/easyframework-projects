@@ -7,15 +7,6 @@ namespace EasyFramework.Samples
         {
             await F.WindowManager.OpenAsync<MainWindow>();
             await F.WindowManager.CloseAsync<AwakeWindow>();
-
-            await ETask.DelaySeconds(3);
-            
-            F.WindowManager.Close<MainWindow>();
-            
-            await ETask.DelaySeconds(3);
-            
-            await F.WindowManager.OpenAsync<MainWindow>();
-            
         }
     }
 }
