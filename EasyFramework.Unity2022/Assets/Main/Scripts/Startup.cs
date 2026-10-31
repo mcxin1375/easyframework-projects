@@ -15,7 +15,8 @@ namespace EasyFramework.Samples
             
             yield return new WaitForSeconds(2);
 
-            F.ControllerManager.EnterAsync<MainController>();
+            // F.ControllerManager.EnterAsync<MainController>();
+            _ = MainController.Instance.EnterAsync();
         }
     }
 }

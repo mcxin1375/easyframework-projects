@@ -21,6 +21,7 @@ namespace EasyFramework.Samples
 
     public partial class MainWindow : Window, IWindowUI<MainWindowUI>
     {
+        protected override float KeepAliveTime => 1;
 
         protected override void OnOpen()
         {
