@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7865bce9797aa141879ddc50d40ac7e, type: 3}
   m_Name: ProfilerSettings
   m_EditorClassIdentifier: 
+  autoInitialize: 1
   errorGUIBehaviour: 1
   errorBgColor: {r: 0, g: 0, b: 0, a: 0.8}
   errorFontColor: {r: 1, g: 0, b: 0, a: 1}
