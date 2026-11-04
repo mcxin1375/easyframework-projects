@@ -4,8 +4,6 @@ namespace EasyFramework.Samples
 {
     public class Startup : MonoBehaviour
     {
-        public string assemblyName = "EasyFramework.Samples";
-        
         void Start()
         {
             Application.runInBackground = true;
@@ -30,56 +28,6 @@ namespace EasyFramework.Samples
 
             await F.InitializeAsync();
             await MainController.Instance.EnterAsync();
-            
-            FDebug.LogError(@"
-
-wefjeriojgiorjegije
-reg
-er
-g
-er
-g
-erg
-er
-g
-reg
-er
-g
-r
-g
-rg
-rg
-er
-gh
-er
-h
-erth
-er
-th
-erh
-
-
-er
-
-h
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-erherh
-");
         }
     }
 }

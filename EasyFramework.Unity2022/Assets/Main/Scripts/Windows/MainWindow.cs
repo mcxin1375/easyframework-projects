@@ -7,8 +7,8 @@ namespace EasyFramework.Samples
         public UIScrollRectBehaviour SR_List;
 
         public readonly UIScrollRectList<MainWindowItem, int> List = new();
-        
-        protected override void OnCreate()
+
+        protected override void OnLoadObject()
         {
             List.Initialize(SR_List);
         }
