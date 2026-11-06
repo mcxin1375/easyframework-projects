@@ -16,12 +16,6 @@
         "com.unity.scriptablebuildpipeline": "1.21.25"
       }
     },
-    "com.cookie.easyframeworkex": {
-      "version": "file:easyframework-unity-ex",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
     "com.coplaydev.unity-mcp": {
       "version": "https://github.com/CoplayDev/unity-mcp.git?path=/MCPForUnity#main",
       "depth": 0,
