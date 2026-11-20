@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AssetBundleBuilderSettings
   m_EditorClassIdentifier: 
   createManifestFile: 0
-  buildAssetBundleOptions: 41057
+  buildAssetBundleOptions: 41312
   buildDirectories:
   - Assets/Res_DLC
   ignoreFileNames:
