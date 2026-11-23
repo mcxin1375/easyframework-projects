@@ -19,10 +19,9 @@ namespace EasyFramework.Samples
         
     }
 
+    [WindowConfig(DestroyTime = 1)]
     public partial class MainWindow : Window, IWindowUI<MainWindowUI>
     {
-        protected override float KeepAliveTime => 1;
-
         protected override void OnOpen()
         {
             FDebug.Log($"MainWindow - Open");
