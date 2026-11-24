@@ -1,13 +1,6 @@
 {
   "dependencies": {
-    "com.code-philosophy.hybridclr": {
-      "version": "https://github.com/focus-creative-games/hybridclr_unity.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "fd32708e7f5106f0ffa375bcfe43342ee594c1e5"
-    },
-    "com.cookie.easyframework": {
+    "cn.mengchengxin.easyframework": {
       "version": "file:easyframework-unity",
       "depth": 0,
       "source": "embedded",
@@ -15,6 +8,13 @@
         "com.unity.nuget.newtonsoft-json": "3.2.2",
         "com.unity.scriptablebuildpipeline": "1.21.25"
       }
+    },
+    "com.code-philosophy.hybridclr": {
+      "version": "https://github.com/focus-creative-games/hybridclr_unity.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "fd32708e7f5106f0ffa375bcfe43342ee594c1e5"
     },
     "com.coplaydev.unity-mcp": {
       "version": "https://github.com/CoplayDev/unity-mcp.git?path=/MCPForUnity#main",
